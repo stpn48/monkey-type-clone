@@ -1,0 +1,34 @@
+{
+  "default": {
+    "bgColor": "#eae4cf",
+    "mainColor": "#9abbcd",
+    "mainText": "#ada998",
+    "textColor": "#646669",
+    "errorColor": "#ca4754",
+    "errorExtraColor": "#7e2a33",
+    "caretColor": "#f4d476",
+    "secondaryBg": "#ded9c9"
+  },
+
+  "bliss": {
+    "bgColor": "#262727",
+    "mainColor": "#f0d3c9",
+    "mainText": "#665957",
+    "textColor": "#fff",
+    "errorColor": "#bd4141",
+    "errorExtraColor": "#883434",
+    "caretColor": "#f0d3c9",
+    "secondaryBg": "#343231"
+  },
+
+  "cherryBlossom": {
+    "bgColor": "#323437",
+    "mainColor": "#d65ccc",
+    "mainText": "#787d82",
+    "textColor": "#d1d0c5",
+    "errorColor": "#ca4754",
+    "errorExtraColor": "#d32738",
+    "caretColor": "#ffffff",
+    "secondaryBg": "#2d2f31"
+  }
+}
