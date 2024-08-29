@@ -1,7 +1,15 @@
-type Props = {}
+import { useNavigate } from "react-router-dom";
+
+type Props = {};
 
 export function ErrorPage({}: Props) {
+
+  const navigate = useNavigate();
+
   return (
-    <div>ErrorPage</div>
-  )
+    <div>
+      <h1>404 Page not found.</h1>
+      <button onClick={() => navigate("/")}>Go back</button>
+    </div>
+  );
 }

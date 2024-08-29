@@ -1,8 +1,7 @@
 import { useModeStore } from "@/state/modeStore";
 import { useStatsStore } from "@/state/statsStateStore";
-import { useThemeStore } from "@/state/themeStore";
 import { useTypingFieldStore } from "@/state/typingFieldStore";
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 
 type Props = {};

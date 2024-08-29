@@ -3,28 +3,19 @@ import { useStatsStore } from "@/state/statsStateStore";
 import { useThemeStore } from "@/state/themeStore";
 import { useTypingFieldStore } from "@/state/typingFieldStore";
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
 
 type Props = {};
 
 export function ResultsPage({}: Props) {
-  const navigate = useNavigate();
 
   const {
     mistakes,
-    perfectWords,
     totalLettersTyped,
     totalWordsTyped,
-    resetStats,
     timeTypingMs,
   } = useStatsStore();
 
   const {
-    setUserWords,
-    setCurrWordIndex,
-    setIsTyping,
-    setCurrRow,
-    setCurrRowDistancePx,
     currGameMode,
   } = useTypingFieldStore();
 

@@ -55,7 +55,7 @@ export const useTypingFieldStore = create<TypingFieldType>((set) => ({
 
   currGameMode: "time",
   setCurrGameMode: (newGameMode) =>
-    set((state) => ({ currGameMode: newGameMode })),
+    set(() => ({ currGameMode: newGameMode })),
 
   isTyping: false,
   setIsTyping: (newTyping) =>

@@ -1,5 +1,4 @@
 import { useThemeStore } from "@/state/themeStore";
-import React, { useEffect, useState } from "react";
 
 type Props = {
   word: string;

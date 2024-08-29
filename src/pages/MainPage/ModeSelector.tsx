@@ -3,7 +3,6 @@ import { useThemeStore } from "@/state/themeStore";
 import { useTypingFieldStore } from "@/state/typingFieldStore";
 import { formatTime } from "@/utils/formatTime";
 import { useEffect, useState } from "react";
-import { WordCount } from "./WordCount";
 
 type Props = {};
 

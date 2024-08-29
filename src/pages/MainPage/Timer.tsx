@@ -1,8 +1,7 @@
 import { useModeStore } from "@/state/modeStore";
 import { useStatsStore } from "@/state/statsStateStore";
-import { useThemeStore } from "@/state/themeStore";
 import { useTypingFieldStore } from "@/state/typingFieldStore";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { formatTime } from "@/utils/formatTime";
 
@@ -16,8 +15,6 @@ export function Timer({}: Props) {
   const { resetStats } = useStatsStore();
 
   const { timeoutMs } = useModeStore();
-
-  const theme = useThemeStore((state) => state.theme);
 
   const [timeMs, setTimeMs] = useState(timeoutMs);
 
